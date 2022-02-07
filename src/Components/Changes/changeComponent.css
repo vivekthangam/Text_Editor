@@ -1,0 +1,55 @@
+.change-gt {
+    /* padding: 10px; */
+    background-color: rgb(44, 43, 43);
+    padding-bottom: 7px;
+    font-size: 14px;
+}
+
+.commit {
+    background-color: rgb(44, 43, 43);
+    border-bottom: 1px solid black;
+    font-family: "Times New Roman", Times, serif;
+    padding: 7px;
+}
+
+.profile {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+
+/* .commit-dtls {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+} */
+
+.dot {
+    height: 0.001em;
+    width: 0.001em;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    font-weight: 100;
+}
+
+ul {
+    display: inline-block;
+    padding: 0;
+    text-align: center
+}
+
+li {
+    display: inline
+}
+
+li a {
+    white-space: nowrap
+}
+
+li:after {
+    content: " ";
+    letter-spacing: 1em;
+    background: center center no-repeat url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwAAADsABataJCQAAABl0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMC4xMkMEa+wAAAAnSURBVBhXY/Dz89MA4sNA/B9Ka4AEYQIwfBgkiCwAxjhVopnppwEApxQqhnyQ+VkAAAAASUVORK5CYII=);
+}

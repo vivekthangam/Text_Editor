@@ -1,0 +1,43 @@
+pre {
+    counter-reset: thecodenumbering;
+    width: 200px;
+    height: 500px;
+    background-color: black;
+    color: wheat;
+    position: relative;
+}
+
+code {
+    counter-increment: thecodenumbering;
+    margin-left: 5px;
+    /*   position: absolute; */
+    z-index: 2;
+    /*   border :1px solid red; */
+}
+
+span {
+    padding-right: 5px;
+    content: counter(thecodenumbering);
+}
+
+code:before {
+    display: inline-block;
+    background: green;
+    color: white;
+    width: 20px;
+    height: 20px;
+    /*     padding-right:15px; */
+    border: 1px solid green;
+    border-bottom: 0px;
+    border-top: 0px;
+    content: counter(thecodenumbering);
+}
+
+.line-text {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    z-index: 1;
+    background: red;
+    color: white;
+}

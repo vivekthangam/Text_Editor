@@ -1,0 +1,57 @@
+.App {
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
+    /* text-align: center; */
+}
+
+body {
+    background-color: #201e1f;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+.firstrow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: white;
+    background-color: black;
+}
+
+.repoWrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 1px;
+    padding: 10px;
+    margin-right: 0px;
+    background-color: #201e1f;
+    /* border: 2px solid black; */
+}
+
+.reponame {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: Row;
+}
+
+.search {
+    display: flex;
+    flex-direction: Row;
+    background-color: black;
+}
+
+.search>div {
+    display: flex;
+    flex-direction: Row;
+    background-color: #201e1f;
+    margin: 1px;
+    padding: 10px;
+    margin-right: 0px;
+}

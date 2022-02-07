@@ -1,0 +1,20 @@
+.sidebar {
+    /* background: rgb(44, 43, 43); */
+    /* margin: 10px; */
+    background-color: black;
+}
+
+.search {
+    background: rgb(44, 43, 43);
+    /* margin: 10px; */
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.search>span {
+    margin: 10px;
+    flex-grow: 1;
+}
